@@ -165,7 +165,9 @@ Then install fldigi from: http://www.w1hkj.com/download.html
 ####Linux (Debian / tested also on Ubuntu Trusty)
 Install some needed stuff:
 
-```# apt-get install make libcpanplus-perl libhttp-server-simple-perl libcrypt-cbc-perl libcrypt-rijndael-perl librpc-xml-perl libxml-feedpp-perl liblwp-protocol-socks-perl libnet-twitter-lite-perl libnet-server-perl```
+```
+# apt-get install make libcpanplus-perl libhttp-server-simple-perl libcrypt-cbc-perl libcrypt-rijndael-perl librpc-xml-perl libxml-feedpp-perl liblwp-protocol-socks-perl libnet-twitter-lite-perl libnet-server-perl
+```
 
 There's an optional and commented `use Net::SSLGlue::LWP` before `use LWP::UserAgent` on [airchat.pl](../blob/master/airchat.pl#L14) which can be installed with `# apt-get install libnet-sslglue-perl)`. This magically fixes LWP for https requests issues, when for example you want to include feeds only available via proxy to a HTTPS address. If you don't have the updated `libwww-perl 6.05-2` and `liblwp-protocol-https-perl 6.04-2` available from repositories (should be available from the jessie repos though) but...
 
@@ -199,7 +201,7 @@ CPAN Terminal> i Net::Server --skiptest
 CPAN Terminal> i HTTP::Server::Simple::CGI::PreFork --skiptest
 ```
 
-###General Notes
+##General Notes
 Airchat runs by default on port 8080, connect your browser to http://localhost:8080. 
 
 ####READ THE CODE.
@@ -268,8 +270,7 @@ Yes.
 ---
 
 FBI has been going after our bittie$. If you want to help, drop some penniez here:
-`1Kx4wVYBvbL6khNhA3SmJKnT8ZLeJHPBxA`
-^ bitcoins
+`1Kx4wVYBvbL6khNhA3SmJKnT8ZLeJHPBxA` < bitcoins
 
 ---
 
