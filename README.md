@@ -255,9 +255,9 @@ no, like...no.
 
 We love pix. pix support is coming ofc. We have tested image transfers using Google's WebP format to try conserve bandwidth as much as possible, but the lack of support in several browsers has given us second thoughts. We will looking for further feedback about it.
 
-##### I want to cyber my girlfriend (who lives 20 miles away) without having NSA agents fapping to it, can I use this for it?
+##### I want to privatetly communicate with my boyfriend (who lives 20 miles away) without having NSA agents being privy to my personal conversations, can I use this for it?
 
-ofc, man. thou we require your girlfriend to deliver tits or gtfo. (sorry but it's needed to help us on the datamining of frequencies usage and transmission mode performance raw data through our Hadoop cluster of ARM servers, all those pix will be used for the datalink test.. err...derp)
+Of course.
 
 ##### What happened to Sabu?
 
