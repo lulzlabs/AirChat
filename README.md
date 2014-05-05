@@ -195,7 +195,7 @@ If you want to install *Fldigi* on the same machine as Airchat then:
 run:
 
 ```
-# perl install-airchat-modules-macosx.pl
+# perl install-modules-airchat-macosx.pl
 # cpanp
 CPAN Terminal> i Net::Server --skiptest
 CPAN Terminal> i HTTP::Server::Simple::CGI::PreFork --skiptest
