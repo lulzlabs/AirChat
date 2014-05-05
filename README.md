@@ -169,7 +169,7 @@ Install some needed stuff:
 # apt-get install make libcpanplus-perl libhttp-server-simple-perl libcrypt-cbc-perl libcrypt-rijndael-perl librpc-xml-perl libxml-feedpp-perl liblwp-protocol-socks-perl libnet-twitter-lite-perl libnet-server-perl
 ```
 
-There's an optional and commented `use Net::SSLGlue::LWP` before `use LWP::UserAgent` on [airchat.pl](../blob/master/airchat.pl#L14) which can be installed with `# apt-get install libnet-sslglue-perl)`. This magically fixes LWP for https requests issues, when for example you want to include feeds only available via proxy to a HTTPS address. If you don't have the updated `libwww-perl 6.05-2` and `liblwp-protocol-https-perl 6.04-2` available from repositories (should be available from the jessie repos though) but...
+There's an optional and commented `use Net::SSLGlue::LWP` before `use LWP::UserAgent` on [airchat.pl](../blob/master/airchat.pl#L14) which can be installed with `# apt-get install libnet-sslglue-perl`. This magically fixes LWP for https requests issues, when for example you want to include feeds only available via proxy to a HTTPS address. If you don't have the updated `libwww-perl 6.05-2` and `liblwp-protocol-https-perl 6.04-2` available from repositories (should be available from the jessie repos though) but...
 
 We strongly recommend you look to update `libwww-perl` and `liblwp-protocol-https-perl` to their latest versions, cause using `SSLGlue` will eventually break https access to the Twitter API.
 
