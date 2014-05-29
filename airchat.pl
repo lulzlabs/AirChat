@@ -3006,7 +3006,7 @@ sub airchat_settings {
 
      print qq{<p>hmmm...well..if you are still feeling lost then check the following tutos about how to do it:</br>
 
-<a href="http://www.themepacific.com/ how-to-generate-api-key-consumer-token-access-key-for-twitter-oauth/ 994/" >How to Generate API Key, Consumer Token, Access Key for Twitter OAuth</a></br>
+<a href="http://www.themepacific.com/how-to-generate-api-key-consumer-token-access-key-for-twitter-oauth/994/">How to Generate API Key, Consumer Token, Access Key for Twitter OAuth</a></br>
 <a href="http://www.themebeans.com/how-to-create-access-tokens-for-twitter-api-1-1/">How to Create your Access Tokens for Twitter</a></br>
 </br></br></br>
 };
