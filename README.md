@@ -175,7 +175,7 @@ We strongly recommend you look to update `libwww-perl` and `liblwp-protocol-http
 
 Check if you have updated packages for `libnet-twitter-lite-perl` because you will need the Twitter API v1.1 support.
 ```
-# perl install-airchat-modules-linux.pl
+# perl install-modules-airchat-debian.pl
 ```
 
 Which will install `HTTP::Server::Simple::CGI::PreFork` (needed) and `Net::Twitter::Lite::WithAPIv1_1`
