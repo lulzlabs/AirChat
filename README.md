@@ -175,7 +175,7 @@ We strongly recommend you look to update `libwww-perl` and `liblwp-protocol-http
 
 Check if you have updated packages for `libnet-twitter-lite-perl` because you will need the Twitter API v1.1 support.
 ```
-# perl install-airchat-modules-linux.pl
+# perl install-modules-airchat-debian.pl
 ```
 
 Which will install `HTTP::Server::Simple::CGI::PreFork` (needed) and `Net::Twitter::Lite::WithAPIv1_1`
@@ -251,21 +251,6 @@ We traded bandwidth for freedom, or to be more exact we traded bandwidth for fre
 
 no, like...no.
 
-##### and pics?
-
-We love pix. pix support is coming ofc. We have tested image transfers using Google's WebP format to try conserve bandwidth as much as possible, but the lack of support in several browsers has given us second thoughts. We will looking for further feedback about it.
-
-##### I want to cyber my girlfriend (who lives 20 miles away) without having NSA agents fapping to it, can I use this for it?
-
-ofc, man. thou we require your girlfriend to deliver tits or gtfo. (sorry but it's needed to help us on the datamining of frequencies usage and transmission mode performance raw data through our Hadoop cluster of ARM servers, all those pix will be used for the datalink test.. err...derp)
-
-##### What happened to Sabu?
-
-He ended up working as a male prostitute for FBI, he usually wears a pinkish silk kimono in the evenings and he resides in Chattanooga. He recently betrayed his male prostitute co-workers cause he was jelly they were getting more attention than him. His sentencing is still being delayed by FBI.
-
-##### Should Molly get on Jabber?
-
-Yes.
 
 ---
 
