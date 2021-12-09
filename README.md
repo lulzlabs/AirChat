@@ -16,7 +16,7 @@ __| || |_______  |__|______   ____ |  |__ _____ _/  |_
 
 ---
 
-##Why Airchat?
+## Why Airchat?
 
 Because we strongly believe communications should be free, Free as much as the air itself and all the waves should be. Free for everyone everywhere, free for those oppressed, free for the poor, free for the dissident, free for those living out of the boundaries of the infrastructure created for those who were lucky enough to have more than others.
 And free...well... because sometimes the non-free infrastructure itself fails.
@@ -42,8 +42,7 @@ This project was conceived not only from our lessons learned in the Egyptian, Li
 
 AirChat is not only our modest draft or proposal for such a dream, but it is a working PoC you can use today. we hope you will enjoy it and we also hope that you too will be able to feel the beauty of free communications, free communications as in 'free beer' and free communications as in 'free yourself and your people forever'.
 
-## User Cases
-
+## Use Cases
 
 - People who were protesting against their govt resulting in the their internet being cut off. Even worse govt decided to fuck with their cellphones networks too. They need basic communication tools to spread news and updates about their conditions, and with the aim to eventually relay that information to/from the internet when at least one of them is able to get a working internet connection.
 
@@ -118,10 +117,10 @@ So how does it feel when you are communicating freely?
 it feels great...fucking great.
 
 
-##Quick Start
-###Software Setup
+## Quick Start
+### Software Setup
 
-####FreeBSD 10
+#### FreeBSD 10
 From a fresh server install:
 ```
 # pkg install make
@@ -146,7 +145,7 @@ so:
  ```# pkg install fldigi-3.xx.xx```
 
 
-####Windows
+#### Windows
 Install Strawberry Perl >= 5.18 (the portable zip version fits well for example)
 from [http://strawberryperl.com/](http://strawberryperl.com/download/)
 
@@ -189,7 +188,7 @@ If you want to install *Fldigi* on the same machine as Airchat then:
 (running fldigi requires a graphical environment)
 
 
-####MacOS X
+#### MacOS X
 * Get XCode.
 * Launch XCode and bring up the Preferences panel. Click on the Downloads tab. Click to install the Command Line Tools. Check you got 'make' installed.
 run:
@@ -201,19 +200,19 @@ CPAN Terminal> i Net::Server --skiptest
 CPAN Terminal> i HTTP::Server::Simple::CGI::PreFork --skiptest
 ```
 
-##General Notes
+## General Notes
 Airchat runs by default on port 8080, connect your browser to http://localhost:8080. 
 
-####READ THE CODE.
+#### READ THE CODE.
 If you find some problem running AirChat, please try updating modules and linked libraries. we've found some issues related to outdated implementations. (like '500 Bad arg length for Socket6::unpack_sockaddr_in6, length is 16, should be 28'happening in Ubuntu Precise when enabling the Twitter gateway).
 
-###Fldigi Setup
+### Fldigi Setup
 run `fldigi`.
 skip everything if you want but you must configure audio devices to make it work with your capture device and your audio output device. Test if it's working capturing audio signals and playing audio and that's all.
 
 (Note: keep your fldigi updated always)
 
-###Hardware Setup
+### Hardware Setup
 
 Radio transceivers usually come with many different interfaces, Each brand deploys different connectors even within their own range of models and sadly there's usually no standard which they follow.
 
